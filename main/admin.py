@@ -1,5 +1,5 @@
 from django.contrib import admin
-from models import Genre, Game
+from .models import Genre, Game
 
 # Register your models here.
 admin.site.register(Genre)
